@@ -3,4 +3,5 @@
 
 1. Membuat Dokumen HTML
    Buatlah seperti berikut
-   ![1](https://github.com/user-attachments/assets/f6cacc86-641b-4bf5-84d9-c0e930e26c64)
+   ![1](https://github.com/user-attachments/assets/fb99494d-1713-4c70-b674-38a55d549c5e)
+
