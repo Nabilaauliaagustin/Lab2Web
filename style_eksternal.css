@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10+Charted&family=Jersey+20&family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    cursor: url('cursorpixel.png'), auto;
+}
+
+body{
+    background-color: #FFFFFFFF;
+}
+
+.atas {
+    padding-top:  20px;
+}
+
+.atas h1{
+    font-size: 50px;
+    padding: 20px;
+    font-family: "Pixelify Sans", sans-serif;
+    color: green;
+}
+
+
+.container{
+    position: relative;
+    padding: 0 2rem;
+    height: 120vh;
+    border-radius: 25px;
+    background-image: url('piksel.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    //background-color: #333;
+    overflow: hidden;
+    border-style: outset;
+    border-width: 3px;
+    padding: 10px;
+    margin: 0 300px 10px 300px;
+    //border-radius: 25px;
+    border-color: #C2BFBFFF #C2BFBFFF #000 #C2BFBFFF;
+    background-color: #DFAE10FF;  
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline;
+}
+
+.navbar a {
+    //display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+.paragraf h2{
+    font-family: "Jersey 20", sans-serif;
+    padding: 30px 30px 10px 30px;
+    text-align: center;
+    font-size: 60px;
+    color: yellow;
+}
+
+.paragraf p{
+    font-size: 30px;
+    padding: 0 190px;
+    color: black;
+    margin-top: 20px;
+}
+
+.paragraf p span{
+    color: red;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    width: 100%;
+    text-align: center;
+    color: #ccd8e4;
+    padding: 0 30px;
+}
