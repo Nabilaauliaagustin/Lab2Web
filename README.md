@@ -36,6 +36,32 @@
 
 
    -------------------
+   1. Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS
+   dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini. <br>
+
+   hasil:
+   ![soalno1](https://github.com/user-attachments/assets/03f8e221-d65a-432f-9aab-0d0d09685d2e)
+
+
+   2. Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan
+   penjelasannya!<br>
+   Jawab: <br>
+   Jika yang dideklarasikan hanyalah h1 saja, maka yang terubah adalah seluruh elemen yang memiliki tag h1.<br>
+   dan, jika kita mendeklarasikan #intro h1, maka yang terubah adalah h1 pada id/wrap #intro saja.
+   
+   3. Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada
+   elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan
+   penjelasan dan contohnya! <br>
+   Jawab: <br>
+   Karena didefinisikan secara langsung pada elemen HTML, CSS inline memiliki prioritas yang lebih tinggi daripada CSS eksternal karena berada di halaman yang sama, yang terakhir adalah eksternal css. namun jika ketiganya dideklarasikan, tetap akan berjalan.
+   
+
+   4. Pada sebuah elemen HTML terdapat ID dan Class, apabila masing-masing selector tersebut
+   terdapat deklarasi CSS, maka deklarasi manakah yang akan ditampilkan pada browser?
+   Berikan penjelasan dan contohnya! ( <p id="paragraf-1" class="text-paragraf"> )<br>
+   Jawab:<br>
+   Jika elemen HTML memiliki baik ID maupun class, CSS dengan selector ID lebih penting daripada CSS dengan selector class. Selector ID (#) memiliki prioritas lebih tinggi daripada selector class (.), karena gaya selector ID dianggap unik dalam dokumen HTML. Jika elemen memiliki deklarasi CSS yang bertentangan dengan kedua class dan ID, gaya selector ID akan digunakan.
+
 
    
 
